@@ -16,6 +16,7 @@
 		AA9ADCAB1CFD312E007AF1CD /* DrawHeartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9ADCAA1CFD312E007AF1CD /* DrawHeartTests.m */; };
 		AA9ADCB61CFD312E007AF1CD /* DrawHeartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9ADCB51CFD312E007AF1CD /* DrawHeartUITests.m */; };
 		AA9ADCC51CFD3184007AF1CD /* HeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9ADCC41CFD3184007AF1CD /* HeartView.m */; };
+		AA9ADCC71CFD3B9B007AF1CD /* heart.gif in Resources */ = {isa = PBXBuildFile; fileRef = AA9ADCC61CFD3B9B007AF1CD /* heart.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		AA9ADCB71CFD312E007AF1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA9ADCC31CFD3184007AF1CD /* HeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartView.h; sourceTree = "<group>"; };
 		AA9ADCC41CFD3184007AF1CD /* HeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartView.m; sourceTree = "<group>"; };
+		AA9ADCC61CFD3B9B007AF1CD /* heart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = heart.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				AA9ADC971CFD312E007AF1CD /* ViewController.m */,
 				AA9ADCC31CFD3184007AF1CD /* HeartView.h */,
 				AA9ADCC41CFD3184007AF1CD /* HeartView.m */,
+				AA9ADCC61CFD3B9B007AF1CD /* heart.gif */,
 				AA9ADC991CFD312E007AF1CD /* Main.storyboard */,
 				AA9ADC9C1CFD312E007AF1CD /* Assets.xcassets */,
 				AA9ADC9E1CFD312E007AF1CD /* LaunchScreen.storyboard */,
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA9ADCA01CFD312E007AF1CD /* LaunchScreen.storyboard in Resources */,
+				AA9ADCC71CFD3B9B007AF1CD /* heart.gif in Resources */,
 				AA9ADC9D1CFD312E007AF1CD /* Assets.xcassets in Resources */,
 				AA9ADC9B1CFD312E007AF1CD /* Main.storyboard in Resources */,
 			);
@@ -504,6 +508,7 @@
 				AA9ADCBC1CFD312E007AF1CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA9ADCBD1CFD312E007AF1CD /* Build configuration list for PBXNativeTarget "DrawHeartTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				AA9ADCBF1CFD312E007AF1CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA9ADCC01CFD312E007AF1CD /* Build configuration list for PBXNativeTarget "DrawHeartUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +526,7 @@
 				AA9ADCC21CFD312E007AF1CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
